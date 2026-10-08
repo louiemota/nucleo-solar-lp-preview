@@ -95,11 +95,11 @@
   /* Variante por grupo de anúncio (?lp=...): título e subtítulo acompanham a busca.
      Textos fixos aqui; nada vindo da URL entra no HTML. Sem parâmetro, vale a versão padrão. */
   const VAR = {
-    residencial: ['Energia solar residencial em Florianópolis e Palhoça <span class="h1-grad">que dá lucro.</span>', 'Placa solar para casa, dimensionada pelo seu consumo. Veja quanto o seu telhado paga da conta.', 'Residencial'],
-    empresa: ['Energia solar para empresa em Florianópolis e Palhoça <span class="h1-grad">que dá lucro.</span>', 'Comércio, indústria e condomínio. Mande a fatura e receba o estudo com os números do seu negócio.', 'Empresarial'],
+    residencial: ['Energia solar residencial em Santa Catarina <span class="h1-grad">que dá lucro.</span>', 'Placa solar para casa, dimensionada pelo seu consumo. Veja quanto o seu telhado paga da conta.', 'Residencial'],
+    empresa: ['Energia solar para empresa em Santa Catarina <span class="h1-grad">que dá lucro.</span>', 'Comércio, indústria e condomínio. Mande a fatura e receba o estudo com os números do seu negócio.', 'Empresarial'],
     rural: ['Energia solar rural em Santa Catarina <span class="h1-grad">que dá lucro.</span>', 'Sítio, granja e produtor rural. Energia é custo de produção, e o sol baixa esse custo.', 'Rural'],
-    financiamento: ['Financiamento de energia solar com parcela <span class="h1-grad">no lugar da conta.</span>', 'Caixa, Sicoob, BV e Solfácil. No estudo você vê a parcela ao lado da conta de luz que ela substitui.', 'Residencial', true],
-    preco: ['Quanto custa energia solar em Florianópolis e Palhoça? <span class="h1-grad">Simule agora.</span>', 'O preço sai do tamanho do sistema, e o tamanho sai do seu consumo. Comece pela sua conta de luz.', 'Residencial'],
+    financiamento: ['Financiamento de energia solar com parcela <span class="h1-grad">no lugar da conta.</span>', 'Santander, Sicredi, BV e Solfácil. No estudo você vê a parcela ao lado da conta de luz que ela substitui.', 'Residencial', true],
+    preco: ['Quanto custa energia solar em Santa Catarina? <span class="h1-grad">Simule agora.</span>', 'O preço sai do tamanho do sistema, e o tamanho sai do seu consumo. Comece pela sua conta de luz.', 'Residencial'],
   };
   const vk = (qs.get('lp') || '').toLowerCase();
   if (VAR[vk]) {
